@@ -3,15 +3,14 @@ using namespace std;
 
 int main()
 {
-    int a,num,b,s=0;
+    int a,num,b,rev=0;
     cout << "\nPlease enter a number";
     cin >> num;
     b = num;
-    rev=0
     while( num > 0)
     {
-    rem = num % 10;
-     rev = (rev * 10) + rem;
+    a = num % 10;
+     rev = (rev * 10) + a;
     num= num / 10;
    
     }
